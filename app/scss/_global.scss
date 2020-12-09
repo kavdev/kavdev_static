@@ -1,0 +1,167 @@
+html,
+body
+{
+    height: 100%;
+    min-width: 375px;
+
+    background-color: var(--color-off-white);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 0 2.5rem;
+
+    color: var(--color-off-black);
+}
+
+hr {
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+
+    border: 0;
+    border-top: 1px solid var(--color-black-translucent);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    flex-shrink: 0;
+
+    height: 22rem;
+    width: 100%;
+
+    figure {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+
+        img {
+            max-width: 26rem;
+        }
+    }
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    flex-grow: 1;
+
+    width: 100%;
+    max-width: 1080px;
+}
+
+section {
+    margin-bottom: 6em;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18em, 1fr));
+
+    column-gap: 1.25em;
+    row-gap: 1.25em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    border: 1px solid var(--color-black-translucent);
+
+    .card__header {
+        flex-shrink: 0;
+
+        height: 8.5em;
+
+        padding: 1.25em;
+
+        .card__header__subtitle {
+            margin-bottom: 0.75em;
+        }
+
+        .card__header__subtitle {
+            color: var(--color-darkgrey);
+        }
+    }
+
+    .card__image {
+        flex-shrink: 0;
+
+        height: 20em;
+
+        figure {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            height: 20em;
+            width: 100%;
+
+            margin: 0;
+
+            img {
+                width: 80%;
+            }
+        }
+    }
+
+    .card__description {
+        flex: 1;
+
+        padding: 1.25em;
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .card__footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        flex-shrink: 0;
+
+        height: 5em;
+
+        background-color: var(--color-grey);
+        border-top: 1px solid var(--color-black-translucent);
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 1em;
+
+    border-top: 1px solid var(--color-black-translucent);
+
+    address {
+        margin: 0;
+
+        .btn {
+            margin: 0 0.35em;
+        }
+    }
+}

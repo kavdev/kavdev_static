@@ -1,0 +1,30 @@
+{
+  "name": "kavdev-static",
+  "description": "KavDev Marketing Website",
+  "private": true,
+  "author": "Brunch",
+  "version": "0.0.1",
+  "repository": "https://github.com/kavdev/kavdev_static",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build --production"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "2.7.1",
+    "autoprefixer": "9.8.6",
+    "babel-brunch": "7.0.1",
+    "@babel/core": "7.12.9",
+    "@babel/runtime-corejs3": "7.12.5",
+    "@babel/plugin-proposal-class-properties": "7.12.1",
+    "@babel/preset-env": "7.12.7",
+    "brunch": "3.0.0",
+    "clean-css-brunch": "3.0.0",
+    "postcss-brunch": "3.0.0",
+    "postcss-scss": "3.0.4",
+    "sass-brunch": "3.0.0",
+    "terser-brunch": "4.0.0"
+  }
+}

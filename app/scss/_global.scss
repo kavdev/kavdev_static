@@ -33,7 +33,7 @@ header {
 
     flex-shrink: 0;
 
-    height: 22rem;
+    height: 20rem;
     width: 100%;
 
     figure {
@@ -43,6 +43,8 @@ header {
         align-items: center;
 
         width: 100%;
+
+        margin: 0;
 
         img {
             max-width: 26rem;
@@ -63,7 +65,7 @@ main {
 }
 
 section {
-    margin-bottom: 6em;
+    margin-bottom: 5em;
 }
 
 .card-grid {
